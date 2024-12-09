@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 4: reached end of line when expecting ':'.
+    while gg_sex not in "ЖМмж"
+                              ^
+
+Ren'Py Version: Ren'Py 8.3.2.24090902
+Sat Dec  7 16:06:03 2024
