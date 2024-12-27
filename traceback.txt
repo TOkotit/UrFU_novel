@@ -1,26 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 3, in script
-    $ gg_sex = renpy.input("Кого пола будет ваш персонаж?\nВеедите М или Ж\n").Upper()
-  File "game/script.rpy", line 3, in <module>
-    $ gg_sex = renpy.input("Кого пола будет ваш персонаж?\nВеедите М или Ж\n").Upper()
-AttributeError: 'str' object has no attribute 'Upper'
+  File "game/scenes/big_scenes_1.rpy", line 211, in script
+    jump big_scene_for_blue_pink_violet_and_salat_way
+ScriptError: could not find label 'big_scene_for_blue_pink_violet_and_salat_way'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 3, in script
-    $ gg_sex = renpy.input("Кого пола будет ваш персонаж?\nВеедите М или Ж\n").Upper()
-  File "C:\Users\user\OneDrive\Рабочий стол\renpy-8.3.2-sdk\renpy\ast.py", line 821, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\user\OneDrive\Рабочий стол\renpy-8.3.2-sdk\renpy\python.py", line 1178, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/script.rpy", line 3, in <module>
-    $ gg_sex = renpy.input("Кого пола будет ваш персонаж?\nВеедите М или Ж\n").Upper()
-AttributeError: 'str' object has no attribute 'Upper'
+  File "game/scenes/big_scenes_1.rpy", line 211, in script
+    jump big_scene_for_blue_pink_violet_and_salat_way
+  File "C:\Users\user\OneDrive\Рабочий стол\renpy-8.3.2-sdk\renpy\ast.py", line 1699, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\user\OneDrive\Рабочий стол\renpy-8.3.2-sdk\renpy\script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'big_scene_for_blue_pink_violet_and_salat_way'.
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.3.2.24090902
 Dead by Deadline 
-Sat Dec  7 16:05:32 2024
+Wed Dec 25 20:24:41 2024

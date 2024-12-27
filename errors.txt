@@ -2,9 +2,7 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 4: reached end of line when expecting ':'.
-    while gg_sex not in "ЖМмж"
-                              ^
+File "game/scenes/blue_scenes.rpy", line 249: Indentation mismatch.
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Sat Dec  7 16:06:03 2024
+Mon Dec 23 17:39:35 2024

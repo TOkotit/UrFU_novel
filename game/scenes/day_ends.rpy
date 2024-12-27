@@ -34,3 +34,9 @@ label end_day_3:
     with fade
     stop music fadeout 1.0
     jump day_4_begin
+
+label end_day_4:
+    scene black
+    with fade
+    stop music fadeout 1.0
+    jump day_5_begin

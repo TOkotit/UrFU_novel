@@ -29,8 +29,7 @@ label skip_human:
 
 label talking_on_the_street:
     play music seva_theme fadeout 1.0
-    scene bg street with fade
-    show gg calm1 with moveinright:
+    show gg calm1 with moveinleft:
         xalign 0.8
         yalign 1.05
     show seva calm1 with moveinleft:

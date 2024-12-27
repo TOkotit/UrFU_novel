@@ -23,7 +23,7 @@ label day_2_begin:
             "Ты берёщь телефон в руку"
             stop music fadeout 2.0
             "16:00"
-            show gg shock
+            show gg shock_
             maincharacter "СКОЛЬКО?!"
             maincharacter "КАК Я МОГ ПРОСПАТЬ ПОЛДНЯ, КОГДА У МЕНЯ РАЗРАБОТКА ВИДЕОИГРЫ НА НОСУ, ЧЁРТ ПОДЕРИ!!!"
             show gg calm2
@@ -48,3 +48,10 @@ label day_4_begin:
     scene bg day_4
     pause 5.0
     jump big_scene_3
+
+label day_5_begin:
+    pause 1.0
+    play sound "audio/sounds/day_begining.mp3"
+    scene bg day_5
+    pause 5.0
+    jump big_scene_almost_last_1
